@@ -46,9 +46,4 @@ translator.addToResult(t) #Convert an array to a Prolog list (in this case, the 
 print("Result:")
 print(translator.getResult())
 
-#translator.makeAgent('atena')
-#translator.cloneAgents('crono',2)
-
-#translator.startMasMary()
-
 translator.RESULTtoPL('prova', '', False)
