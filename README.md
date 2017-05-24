@@ -1,0 +1,1 @@
+DALI framework, compatible with Redis and other technologies.
