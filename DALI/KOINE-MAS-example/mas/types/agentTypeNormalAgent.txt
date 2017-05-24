@@ -1,0 +1,22 @@
+:- compile('../mas/redis_client.pl').
+
+:- dynamic state/1.
+:- assert(state(0)).
+
+
+hello :- state(0).
+
+helloI :>
+    print('I say hello to MASA!'), nl,
+    messageA(masa,send_message(hello(Me),Me)).
+
+hiE :>
+    retract(state(0)),
+    assert(state(1)),
+    print('MASA told hello back!'), nl.
+
+
+helloWorldE :>
+    print('HELLO WORLD!'), nl,
+    print('I send helloWorld to Redis'), nl,
+    mas_send('HELLO_WORLD_by_NormalAgent1').
