@@ -28,5 +28,5 @@ Press a button to stop the example MAS.
 
 4. If you want to create your own MAS:
 - Copy the KOINE-MAS-example folder and rename it as you want.
-- Change KOINE-MAS-example/mas content with your own MAS.
-- Repeat the step number 3 for your new project folder.
+- Change YourNewProject/mas content with your own MAS.
+- Repeat the step number 3 for your new project.
